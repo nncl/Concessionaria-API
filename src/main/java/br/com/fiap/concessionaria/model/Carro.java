@@ -1,6 +1,13 @@
 package br.com.fiap.concessionaria.model;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name = "carro")
 public class Carro {
+
+    @Id
+    // TODO Implement
     private int id;
     private String modelo;
     private int ano;
